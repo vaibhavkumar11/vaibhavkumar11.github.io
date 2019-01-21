@@ -57,7 +57,7 @@
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      background: wheat;
+      background: url("../img/DSC_0152.jpg");
       border: solid 3.5px #FB8122; }
   .menu .nav-item {
     transform: translate3d(650px, 0, 0); }
@@ -103,7 +103,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../img/apple-background-connection-399161.jpg");
+    background: url("../img/1amfcs-1233056-unsplash.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -114,7 +114,7 @@ body {
       height: 100%;
       width: 100%;
       z-index: -1;
-      background: rgba(29, 34, 40, 0.8); }
+      background: rgba(29, 34, 40, 0.7); }
 
 h1,
 h2,
