@@ -57,7 +57,7 @@
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      background: url("../img/DSC_0152.jpg");
+      background: url("../img/DSC_0152.JPG");
       border: solid 3.5px #FB8122; }
   .menu .nav-item {
     transform: translate3d(650px, 0, 0); }
@@ -160,7 +160,8 @@ main {
 
 .about-info {
   display: grid;
-  grid-template-areas: "bio-image bio bio" "job-1 job-2 job-3";
+  grid-template-areas: "bio-image bio bio"
+ "job-1 job-2 job-3";
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px; }
   .about-info .bio-image {
@@ -271,7 +272,11 @@ main {
       height: 150px;
       width: 150px; }
   .about-info {
-    grid-template-areas: "bio-image" "bio" "job-1" "job-2" "job-3";
+    grid-template-areas: "bio-image"
+ "bio"
+ "job-1"
+ "job-2"
+ "job-3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
